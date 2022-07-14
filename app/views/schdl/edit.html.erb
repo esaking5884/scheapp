@@ -11,19 +11,19 @@
             <td><%= f.text_field :title %></td>
         </tr>
         <tr>
-            <td>開始日時</td>
+            <td><%= f.label :start_time, "開始日時" %></td>
             <td><%= f.datetime_field :start_time %></td>
         </tr>
         <tr>
-            <td>終了日時</td>
+            <td><%= f.label :finish_time, "終了日時" %></td>
             <td><%= f.datetime_field :finish_time %></td>
         </tr>
         <tr>
-            <td>特記事項</td>
+            <td><%= f.label :memo, "特記事項" %></td>
             <td><%= f.text_area :memo %></td>
         </tr>
         <tr>
-            <td>終日</td>
+            <td><%= f.label :all_days, "終日" %></td>
             <td><%= f.check_box :all_days %></td>
         </tr>
         <tr>
